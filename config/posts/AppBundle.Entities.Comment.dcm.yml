@@ -21,6 +21,7 @@ AppBundle\Entities\Comment:
 
         createdAt:
             type: datetime
+            column: created_at
 
     manyToOne:
         post:

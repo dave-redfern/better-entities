@@ -25,12 +25,15 @@ AppBundle\Entities\Post:
         publishedAt:
             type: datetime
             nullable: true
+            column: published_at
 
         createdAt:
             type: datetime
+            column: created_at
 
         updatedAt:
             type: datetime
+            column: updated_at
 
 
     oneToMany:

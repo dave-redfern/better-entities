@@ -1,0 +1,11 @@
+AppBundle\ValueObjects\PostTitle:
+    type: embeddable
+
+    fields:
+        title:
+            type: string
+            length: 100
+
+        slug:
+            type: string
+            length: 100

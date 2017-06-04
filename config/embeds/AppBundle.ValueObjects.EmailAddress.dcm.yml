@@ -1,0 +1,7 @@
+AppBundle\ValueObjects\EmailAddress:
+    type: embeddable
+
+    fields:
+        email:
+            type: string
+            length: 100

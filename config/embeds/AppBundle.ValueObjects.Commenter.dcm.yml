@@ -1,0 +1,11 @@
+AppBundle\ValueObjects\Commenter:
+    type: embeddable
+
+    fields:
+        name:
+            type: string
+            length: 100
+
+    embedded:
+        email:
+            class: AppBundle\ValueObjects\EmailAddress

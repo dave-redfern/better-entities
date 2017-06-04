@@ -1,0 +1,34 @@
+{
+    "name": "dave-redfern/better-entities",
+    "description": "Example code for the Better Entities talk",
+    "type": "project",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Dave Redfern",
+            "email": "dave@scorpioframework.com"
+        }
+    ],
+    "require": {
+        "php": ">=7",
+        "ext-bcmath": "*",
+        "doctrine/orm": "~2.5",
+        "beberlei/assert": "~2.7",
+        "somnambulist/collection": "~1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.2",
+        "symfony/yaml": "~3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "AppBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AppBundle\\Tests\\": "tests/AppBundle/",
+            "AppBundle\\Tests\\Stubs\\": "tests/Stubs/"
+        }
+    }
+}

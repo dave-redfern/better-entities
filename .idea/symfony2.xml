@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Symfony2PluginSettings">
+    <option name="directoryToApp" value="src" />
+    <option name="pluginEnabled" value="true" />
+    <option name="phpAnnotateTemplate" value="false" />
+    <option name="phpAnnotateService" value="false" />
+    <option name="phpAnnotateRoute" value="false" />
+    <option name="phpAnnotateTemplateAnnotation" value="false" />
+    <option name="phpAnnotateTranslation" value="false" />
+    <option name="profilerCsvPath" value="" />
+  </component>
+</project>

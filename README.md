@@ -35,3 +35,16 @@ Run specific group:
 
     vendor/bin/phpunit --group=entities
 
+## Slides
+
+The slides are available in `/docs`. These were exported from Keynote, unfortunately there appears to be no way
+to preserve all the contents of the presenter notes so some of the text was truncated. This only affects the
+source PHP code. That has been included as a separate file (`source_post.php`).
+
+There are 2 versions of the slides:
+
+ * Just the slides
+ * Slides + presenter notes with links and extra information
+
+You may re-produce this talk provided the copyright notices remain intact and it is fully credited and linked
+to the GitHub repository.
